@@ -38,7 +38,7 @@ namespace MVC_Model_View_Controller_.Controllers
             bool checkId = false;
             bool checkPass = false;
             // 現在時間取得
-            string t = System.DateTime.Now.ToString("yyyyMMdd-hhmmss");
+            string sessonTime = System.DateTime.Now.ToString("yyyyMMdd-hhmmss");
 
             if (id == "ECC")
             {
@@ -86,12 +86,17 @@ namespace MVC_Model_View_Controller_.Controllers
             HttpContext.Session.SetString("name", name);
             return View();
         }
+
         [HttpGet]
         public IActionResult SessionCheck(int id, string name)
         {
             ViewData["message"] = "保存されているセッションの値を確認します。";
             ViewData["id"] = HttpContext.Session.GetInt32("id");
             ViewData["name"] = HttpContext.Session.GetString("name");
+            if ()
+            {
+
+            }
             return View("Session");
         }
     }
