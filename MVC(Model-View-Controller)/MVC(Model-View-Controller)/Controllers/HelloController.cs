@@ -93,10 +93,6 @@ namespace MVC_Model_View_Controller_.Controllers
             ViewData["message"] = "保存されているセッションの値を確認します。";
             ViewData["id"] = HttpContext.Session.GetInt32("id");
             ViewData["name"] = HttpContext.Session.GetString("name");
-            if ()
-            {
-
-            }
             return View("Session");
         }
     }

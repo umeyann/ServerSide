@@ -41,3 +41,4 @@ D:\5_School\4 years\2_[吉川 翔太]Sever Side\Project\MVC(Model-View-Controlle
 D:\5_School\4 years\2_[吉川 翔太]Sever Side\Project\MVC(Model-View-Controller)\MVC(Model-View-Controller)\obj\Debug\netcoreapp3.1\Razor\Views\Hello\Query.cshtml.g.cs
 D:\5_School\4 years\2_[吉川 翔太]Sever Side\Project\MVC(Model-View-Controller)\MVC(Model-View-Controller)\obj\Debug\netcoreapp3.1\Razor\Views\Hello\Session.cshtml.g.cs
 D:\5_School\4 years\2_[吉川 翔太]Sever Side\Project\MVC(Model-View-Controller)\MVC(Model-View-Controller)\obj\Debug\netcoreapp3.1\Razor\Views\Hello\Index1.cshtml.g.cs
+D:\5_School\4 years\2_[吉川 翔太]Sever Side\Project\MVC(Model-View-Controller)\MVC(Model-View-Controller)\obj\Debug\netcoreapp3.1\Razor\Views\Hello\TimeOut.cshtml.g.cs
