@@ -1,0 +1,20 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+<div>
+    <h1 class="display-4">Welcome</h1>
+    <p class="h4">@Model.Message</p>
+    <form asp-page="Index">
+        <label asp-for="@Model.Name">Name</label>
+        <input asp-for="@Model.Name" class="form-control" />
+        <label asp-for="@Model.Password">Password</label>
+        <input asp-for="@Model.Password" class="form-control" />
+        <label asp-for="@Model.Mail">Mail</label>
+        <input asp-for="@Model.Mail" class="form-control" />
+        <label asp-for="@Model.Tel">Tel</label>
+        <input asp-for="@Model.Tel" class="form-control" />
+        <input type="submit" class="btn btn-primary" />
+    </form>
+</div>
